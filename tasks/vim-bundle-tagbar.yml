@@ -1,0 +1,5 @@
+---
+# Provides an easy way to browse the tags of the current file and get an overview of its structure
+- apt: pkg=exuberant-ctags
+- include: ./vim-bundle.yml bundle_name='tagbar' bundle_repo_url='https://github.com/majutsushi/tagbar.git'
+

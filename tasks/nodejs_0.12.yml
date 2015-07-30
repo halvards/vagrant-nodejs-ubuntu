@@ -1,0 +1,6 @@
+---
+- include: ../repositories/nodesource.yml version='node_0.12'
+- apt: pkg=nodejs
+- name: Upgrade NPM
+  shell: npm install -g npm@latest
+

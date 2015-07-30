@@ -1,0 +1,4 @@
+---
+# A vim plugin to visualize your undo tree
+- include: ./vim-bundle.yml bundle_name='gundo' bundle_repo_url='https://github.com/sjl/gundo.vim.git'
+

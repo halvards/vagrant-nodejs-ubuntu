@@ -1,0 +1,4 @@
+---
+# Enable repeating supported plugin maps with "."
+- include: ./vim-bundle.yml bundle_name='repeat' bundle_repo_url='https://github.com/tpope/vim-repeat.git'
+

@@ -1,0 +1,4 @@
+---
+# Vim plugin to list, select and switch between buffers
+- include: ./vim-bundle.yml bundle_name='buffergator' bundle_repo_url='https://github.com/jeetsukumaran/vim-buffergator.git'
+

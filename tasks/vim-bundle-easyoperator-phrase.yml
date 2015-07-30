@@ -1,0 +1,5 @@
+---
+# Select, yank, paste, delete, or other operation of phrase
+- include: ./vim-bundle-easymotion.yml
+- include: ./vim-bundle.yml bundle_name='easyoperator-phrase' bundle_repo_url='https://github.com/haya14busa/vim-easyoperator-phrase.git'
+

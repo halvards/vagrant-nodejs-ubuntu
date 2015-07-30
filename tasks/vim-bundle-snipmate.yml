@@ -1,0 +1,6 @@
+---
+# Implements some of TextMate's snippets features in Vim. Alternative to neocomplete+neosnippet
+- include: ./vim-bundle-tlib.yml
+- include: ./vim-bundle-mw-utils.yml
+- include: ./vim-bundle.yml bundle_name='snipmate' bundle_repo_url='https://github.com/garbas/vim-snipmate.git'
+

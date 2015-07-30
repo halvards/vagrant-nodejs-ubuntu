@@ -1,0 +1,4 @@
+---
+# Vim sugar for the UNIX shell commands that need it the most
+- include: ./vim-bundle.yml bundle_name='eunuch' bundle_repo_url='https://github.com/tpope/vim-eunuch.git'
+

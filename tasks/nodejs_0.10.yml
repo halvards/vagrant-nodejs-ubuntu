@@ -1,0 +1,10 @@
+---
+- include: ../repositories/nodesource.yml version='node_0.10'
+#- include: ../repositories/nodesource.yml version='node_0.12'
+- apt: pkg=nodejs
+#- include: ../repositories/nodesource.yml version='iojs_1.x'
+#- include: ../repositories/nodesource.yml version='iojs_2.x'
+#- apt: pkg=iojs
+- name: Upgrade NPM
+  shell: npm install -g npm@latest
+

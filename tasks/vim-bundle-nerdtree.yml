@@ -1,0 +1,10 @@
+---
+# A tree explorer plugin
+- include: ./vim-bundle.yml bundle_name='nerdtree' bundle_repo_url='https://github.com/scrooloose/nerdtree.git'
+- name: Open NERDTree automatically when vim starts up
+  lineinfile: dest=/home/{{ username }}/.vimrc
+              line='autocmd vimenter * NERDTree'
+- name: Open NERDTree with Ctrl+n
+  lineinfile: dest=/home/{{ username }}/.vimrc
+              line='map <C-n> :NERDTreeToggle<CR>'
+

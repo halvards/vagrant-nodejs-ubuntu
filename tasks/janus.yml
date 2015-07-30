@@ -1,0 +1,14 @@
+---
+- include: ./base.yml
+- include: ./git.yml
+- include: ./ruby.yml
+- include: ./vim.yml
+- apt: pkg=exuberant-ctags
+- name: Install Janus plugins
+  shell: /usr/bin/curl -Lo- https://bit.ly/janus-bootstrap | /bin/bash
+         creates=/home/{{ username }}/.vim/README.md
+         chdir=/home/{{ username }}
+  sudo_user: "{{ username }}"
+- name: Create shell alias for vim-janus
+  lineinfile: dest=/home/{{ username }}/.bashrc line='alias vimjanus="vim -u ~/.vim/janus/vim/vimrc"'
+

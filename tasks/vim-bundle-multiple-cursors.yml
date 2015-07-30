@@ -1,0 +1,4 @@
+---
+# True Sublime Text style multiple selections for Vim
+- include: ./vim-bundle.yml bundle_name='multiple-cursors' bundle_repo_url='https://github.com/terryma/vim-multiple-cursors.git'
+

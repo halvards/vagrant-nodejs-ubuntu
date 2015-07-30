@@ -1,0 +1,6 @@
+---
+- include: ../repositories/nodesource.yml version='iojs_1.x'
+- apt: pkg=iojs
+- name: Upgrade NPM
+  shell: npm install -g npm@latest
+

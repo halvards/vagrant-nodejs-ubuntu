@@ -1,0 +1,5 @@
+---
+# Provides keyword completion by maintaining a cache of keywords in the current buffer
+# Optionally, extend with neosnippet and vim-snippets
+- include: ./vim-bundle.yml bundle_name='neocomplete' bundle_repo_url='https://github.com/Shougo/neocomplete.vim.git'
+
