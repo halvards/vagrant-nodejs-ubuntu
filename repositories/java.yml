@@ -1,8 +1,0 @@
----
-- apt: pkg={{ item }}
-  with_items:
-    - python-apt
-    - python-pycurl
-- name: Oracle Java DEB Repository
-  apt_repository: repo="ppa:webupd8team/java" state=present update_cache=yes
-
