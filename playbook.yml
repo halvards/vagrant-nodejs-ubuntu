@@ -12,6 +12,7 @@
     - include: ./tasks/nvm.yml
     #- include: ./tasks/janus.yml
     - include: ./tasks/vim-node-ide.yml
+    - include: ./tasks/vim-theme-atom-dark.yml
     - include: ./tasks/vimx.yml
     - include: ./tasks/atom.yml
     - include: ./tasks/atom-packages-generic.yml
