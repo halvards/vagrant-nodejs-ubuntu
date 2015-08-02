@@ -1,8 +1,0 @@
----
-# Makes NERDTree feel like a true panel, independent of tabs
-- include: ./vim-bundle-nerdtree.yml
-- include: ./vim-bundle.yml bundle_name='nerdtree-tabs' bundle_repo_url='https://github.com/jistr/vim-nerdtree-tabs.git'
-- name: Add key mapping for nerdtree-tabs toggle
-  lineinfile: dest=/home/{{ username }}/.vimrc
-              line='map <Leader>n <plug>NERDTreeTabsToggle<CR>'
-

@@ -1,4 +1,0 @@
----
-# A vim plugin for running your Ruby tests
-- include: ./vim-bundle.yml bundle_name='vroom' bundle_repo_url='https://github.com/skalnik/vim-vroom.git'
-

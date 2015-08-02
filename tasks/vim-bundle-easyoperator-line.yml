@@ -1,5 +1,0 @@
----
-# Select, yank, paste, delete, or other operation of lines
-- include: ./vim-bundle-easymotion.yml
-- include: ./vim-bundle.yml bundle_name='easyoperator-line' bundle_repo_url='https://github.com/haya14busa/vim-easyoperator-line.git'
-

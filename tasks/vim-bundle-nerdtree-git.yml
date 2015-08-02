@@ -1,5 +1,0 @@
----
-# A plugin of NERDTree showing git status
-- include: ./vim-bundle-nerdtree.yml
-- include: ./vim-bundle.yml bundle_name='nerdtree-git' bundle_repo_url='https://github.com/Xuyuanp/nerdtree-git-plugin.git'
-

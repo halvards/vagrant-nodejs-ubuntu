@@ -1,4 +1,0 @@
----
-# Add a buffer close to vim that doesn't close the window
-- include: ./vim-bundle.yml bundle_name='kwbd' bundle_repo_url='https://github.com/rgarver/Kwbd.vim.git'
-

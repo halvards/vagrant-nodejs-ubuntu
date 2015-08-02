@@ -1,4 +1,0 @@
----
-# Utility functions for vim
-- include: ./vim-bundle.yml bundle_name='tlib' bundle_repo_url='https://github.com/tomtom/tlib_vim.git'
-

@@ -1,4 +1,0 @@
----
-# Interpret a file by function and cache file automatically. Dependency of vim-snipmate
-- include: ./vim-bundle.yml bundle_name='mw-utils' bundle_repo_url='https://github.com/MarcWeber/vim-addon-mw-utils.git'
-

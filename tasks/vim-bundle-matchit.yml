@@ -1,4 +1,0 @@
----
-# Allows you to configure % to match more than just single characters.  You can match words and even regular expressions.
-- include: ./vim-bundle.yml bundle_name='matchit' bundle_repo_url='https://github.com/edsono/vim-matchit.git'
-

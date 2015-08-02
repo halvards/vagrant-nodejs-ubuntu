@@ -1,4 +1,0 @@
----
-# Perform all your vim insert mode completions with Tab
-- include: ./vim-bundle.yml bundle_name='supertab' bundle_repo_url='https://github.com/ervandew/supertab.git'
-

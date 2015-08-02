@@ -1,4 +1,0 @@
----
-# Quoting/parenthesizing made simple
-- include: ./vim-bundle.yml bundle_name='surround' bundle_repo_url='https://github.com/tpope/vim-surround.git'
-

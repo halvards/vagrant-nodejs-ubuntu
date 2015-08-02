@@ -1,4 +1,0 @@
----
-# Pairs of handy bracket mappings. Alternative to auto-pairs
-- include: ./vim-bundle.yml bundle_name='unimpaired' bundle_repo_url='https://github.com/tpope/vim-unimpaired.git'
-

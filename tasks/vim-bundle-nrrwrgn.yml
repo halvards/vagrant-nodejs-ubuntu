@@ -1,4 +1,0 @@
----
-# Vim plugin for focussing on a selected region
-- include: ./vim-bundle.yml bundle_name='nrrwrgn' bundle_repo_url='https://github.com/chrisbra/NrrwRgn.git'
-

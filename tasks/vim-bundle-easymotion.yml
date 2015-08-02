@@ -1,4 +1,0 @@
----
-# Provides a much simpler way to use some motions in vim. Can work standalone without easyoperator-* bundles
-- include: ./vim-bundle.yml bundle_name='easymotion' bundle_repo_url='https://github.com/easymotion/vim-easymotion.git'
-
