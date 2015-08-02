@@ -5,7 +5,10 @@
 - include: ./vim-bundle-bclose.yml
 - include: ./vim-bundle-bufexplorer.yml
 - include: ./vim-bundle-csapprox.yml
+#- include: ./vim-bundle-css-color.yml
+#- include: ./vim-bundle-emmet.yml
 - include: ./vim-bundle-fugitive.yml
+- include: ./vim-bundle-gist.yml
 - include: ./vim-bundle-gitgutter.yml
 - include: ./vim-bundle-gitv.yml
 - include: ./vim-bundle-neocomplete.yml
@@ -14,5 +17,7 @@
 - include: ./vim-bundle-nerdtree.yml
 - include: ./vim-bundle-node.yml
 - include: ./vim-bundle-sensible.yml
+- include: ./vim-bundle-snippets.yml
 - include: ./vim-bundle-syntastic.yml
+- include: ./vim-bundle-trailing-whitespace.yml
 
