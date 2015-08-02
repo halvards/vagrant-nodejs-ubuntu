@@ -10,7 +10,6 @@
     #- include: ./tasks/iojs_1.x.yml
     #- include: ./tasks/iojs_2.x.yml
     - include: ./tasks/nvm.yml
-    #- include: ./tasks/janus.yml
     - include: ./tasks/vim-node-ide.yml
     - include: ./tasks/vim-theme-atom-dark.yml
     - include: ./tasks/vimx.yml
